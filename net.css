@@ -1,0 +1,475 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Martel Sans", sans-serif;
+}
+
+.main {
+  background-image: url(assets/bg.img.jpg);
+  height: 97vh;
+  width: auto;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.box {
+  background-color: black;
+  opacity: 0.7;
+  height: 97vh;
+  width: auto;
+}
+body {
+  background-color: black;
+}
+
+.nav {
+  position: absolute;
+  top: 0;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  height: 80px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-space {
+  height: 25px;
+  width: 325px;
+}
+
+.logo {
+  height: 25px;
+  width: 90px;
+}
+
+.lang-sign {
+  height: 39px;
+  width: 473px;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.language select {
+  height: 32px;
+  background-color: transparent;
+  font-size: 16px;
+  border: 0.1px solid rgba(255, 255, 255, 0.541);
+  width: 124px;
+  color: #fff;
+  font-family: "Martel Sans", sans-serif;
+  border-radius: 5px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.language option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.sign-in button {
+  height: 32px;
+  width: 77px;
+  font-size: 16px;
+  font-family: "Martel Sans", sans-serif;
+  border-radius: 5px;
+  background-color: rgb(229, 9, 20);
+  border: none;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hero {
+  height: 90%;
+  width: 100%;
+  position: absolute;
+  top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero span {
+  font-size: 40px;
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 990;
+  margin-bottom: 8px;
+  line-height: 50px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero p {
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 600;
+}
+
+#para-1 {
+  margin-bottom: 1.2rem;
+}
+
+.email-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 16px;
+  gap: 10px;
+}
+
+.hero input {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  font-weight: 900;
+  width: 22rem;
+  height: 3rem;
+}
+
+#get-start {
+  height: 3rem;
+  width: 10rem;
+  font-size: medium;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: none;
+  background-color: rgb(229, 9, 20);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.seperation {
+  height: 5px;
+  width: 100%;
+  background: #cc14cc;
+  background: linear-gradient(
+    260deg,
+    rgba(204, 20, 204, 1) 0%,
+    rgba(255, 0, 0, 1) 48%,
+    rgba(247, 8, 8, 1) 51%,
+    rgba(122, 2, 122, 1) 100%
+  );
+}
+
+.trend-sec{
+  height: 500px;
+  width: auto;
+}
+
+.trend{
+  display: flex;
+  justify-content: center;
+  height: 90px;
+  width: auto;
+  background: #000000;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 71%, rgba(5, 47, 92, 1) 100%, rgba(13, 84, 161, 1) 99%);
+
+}
+
+.trend p{
+  color: white;
+  font-family: "Martel Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  padding-top: 3rem;
+  width: 80%;
+  align-items: center;
+
+}
+
+.total{
+  width: auto;
+  height: 2100px;
+  padding: 0% 10%;
+}
+
+.movie-tabs{
+  height: 240px;
+  padding-top: 10px;
+  width: auto;
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.tab{
+  height: 208px;
+  width: 180px;
+}
+
+.img-sec{
+  height: 196px;
+  width: 140px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border-radius: 18px;
+  cursor: pointer;
+  
+}
+
+.tab:hover{
+  transition: transform 0.1s ease-in-out;
+  transform: scale(1.1);
+}
+
+.tab p{
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: 900;
+  line-height: 64px;
+  text-align: left;
+  color: #000000;
+  font-size: 64px;
+  position: relative;
+  bottom: 100px;
+  -webkit-text-stroke: 0.1rem rgb(255, 255, 255);
+}
+
+.more-txt{
+   height: 60px;
+   width: auto;
+}
+
+.more-txt p{
+  color: #fff;
+  font-family: "Martel Sans", sans-serif;
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+
+.more-tabs{
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+  gap: 15px;
+  justify-content: center;
+}
+.nxt{
+  padding: 1.5em;
+  background: #352963;
+  background: linear-gradient(104deg, rgba(53, 41, 99, 1) 0%, rgb(15, 9, 17) 87%, rgb(22, 10, 27) 100%);
+  border-radius: 20px;
+    text-align: left;
+  background-color: #fff;
+  
+}
+
+.nxt h2{
+  color: aliceblue;
+  padding-bottom: 10px;
+  font-family:  "Martel Sans", sans-serif ;
+  font-weight: 800;
+  line-height: 32px;
+}
+
+.nxt p{
+  color:rgba(255, 255, 255, 0.7);
+  font-family:"Martel Sans", sans-serif;
+  font-size: 17px;
+  padding-top: 10px ;
+  font-size: 15px;
+}
+
+.faq-text h2{
+  color: #fff;
+  stroke-width: 10px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.faq-container{
+  height: auto;
+  background-color: rgb(68, 65, 65);
+  
+}
+
+.faqs{
+  height: auto;
+  border:4px solid black;
+  background-color: rgb(68, 65, 65);
+  cursor: pointer;
+}
+
+.faqs summary:hover{
+  opacity: 0.7;
+}
+
+summary {
+    list-style: none; 
+    display: grid;
+    height:80px;
+    margin-left: 30px;
+    grid-template-columns: repeat(1fr, minmax(200px, 1fr));
+    background-color: rgb(68, 65, 65);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.two{
+  font-size: 20px;
+  color: #fff;
+  align-items: start;
+  line-height: 35px;
+  padding: 0px 20px;
+}
+.three{
+  font-size: 20px;
+  color: #fff;
+  align-items: start;
+  line-height: 35px;
+  padding: 20px;
+  
+}
+
+.last-sec{
+  height: auto;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  margin: 80px 0;
+}
+
+.last-add-sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 16px;
+  gap: 10px;
+}
+
+.last-input {
+  background-color: transparent;
+  color: #fff;
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  font-weight: 900;
+  width: 30rem;
+  height: 3rem;
+}
+
+#last-btn {
+  height: 3rem;
+  width: 12rem;
+  font-size: medium;
+  background-color: rgb(229, 9, 20);
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer{
+  height: auto;
+  width: auto;
+}
+  
+.foot-title{
+  color: rgba(255, 255, 255, 0.7);
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.foot-tags{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
+
+.foot li{
+  padding: 12px 0 0 12px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  width: 200px;
+  list-style: none;
+  text-decoration: underline;
+
+}
+
+.language-2{
+  margin: 30px 0px 20px 0px;
+}
+
+.language-2 select {
+  height: 32px;
+  background-color: transparent;
+  font-size: 16px;
+  border: 0.1px solid rgba(255, 255, 255, 0.308);
+  width: 124px;
+  color: #fff;
+  font-family: "Martel Sans", sans-serif;
+  border-radius: 5px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.language-2 option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.foot-last-texts{
+  height: auto;                                     
+}
+
+#net-ind-txt{
+  font-size: 15px;
+  color:rgb(185, 173, 173) ;
+  padding: 15px 0;
+}
+
+#last-txt{
+  font-size: 13px;
+  color:rgba(255, 255, 255, 0.308);
+  margin: 10px 0px 40px 0px;
+}
+
+.footer-2{
+  padding-bottom: 150px;
+}
+
+
